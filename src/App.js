@@ -6,9 +6,10 @@ export function replaceCamelWithSpaces(colorName) {
 }
 
 function App() {
-  const [buttonColor, setButtonColor] = useState("red");
+  const [buttonColor, setButtonColor] = useState("MediumVioletRed");
   const [buttonDisabled, setButtonDisabled] = useState(false);
-  const changeColor = buttonColor === "red" ? "blue" : "red";
+  const changeColor =
+    buttonColor === "MediumVioletRed" ? "MidnightBlue" : "MediumVioletRed";
 
   return (
     <div>
